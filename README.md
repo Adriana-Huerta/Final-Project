@@ -1,4 +1,4 @@
-# Title
+# Final Project
 
 ## Repository
 <Link to your project's public GitHub respository>

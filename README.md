@@ -2,7 +2,7 @@
 Final Project for my class.
 
 ## Repository
-<Link to your project's public GitHub respository>
+https://github.com/Adriana-Huerta/Final-Project/tree/main
 
 ## Description
 1-2 sentence description of what it will do and how it relevant to media and digital arts. This proect will have a digital rain effect, trails of colorful drips will run down the screen. While in the forefront a still image will show and overlap the rain, it will not be covered by the effect at all.

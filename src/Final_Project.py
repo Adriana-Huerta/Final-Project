@@ -7,9 +7,7 @@ class Particle():
     def __init__(self, pos=(0,0), size=15, life=1000):
         self.pos = pos
         self.size = size
-        # for i in range(101):
         self.color = pygame.Color(random.randrange(0, 255), random.randrange(0, 255), random.randrange(0, 255),255)
-            # self.color = pygame.Color(0, 255, 0)
         self.age = 0
         self.life = life
         self.dead = False
@@ -33,8 +31,6 @@ class Particle():
         self.surface.set_alpha(self.alpha)
         surface.blit(self.surface, self.pos)
     
-    # def shapes(self, shape):
-
 
 class ParticleTrail():
     
@@ -105,9 +101,7 @@ class Rain():
 
 
 def main():
-    pygame.init()
-    
-    # hi.hello()
+    pygame.init()    
     pygame.display.set_caption("Digital Rain")
     clock = pygame.time.Clock()
     dt = 0
@@ -125,9 +119,6 @@ def main():
         rain.draw(screen)
         pygame.display.flip()
         dt = clock.tick(12)
-        # surf2 = pygame.font.Font.render(pygame.font.SysFont(name="times", size=30, bold=False, italic=False),"Words", True, pygame.Color(random.randrange(0, 255), random.randrange(0, 255), random.randrange(0, 255)), None)
-        # textRect = surf2.get_rect(center=screen.get_rect().center)
-        # screen.blit(surf2, textRect)
     pygame.quit()
 
 if __name__ == "__main__":

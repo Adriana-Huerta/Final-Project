@@ -1,6 +1,7 @@
 import random
 import math
 import pygame
+from PIL import Image
 
 
 class Particle():
@@ -119,6 +120,11 @@ def main():
         rain.draw(screen)
         pygame.display.flip()
         dt = clock.tick(12)
+        # with Image.open('FIREBALL.jpg') as img:
+        #     x = 0
+        #     y = 0
+        #     img.show()
+        
     pygame.quit()
 
 if __name__ == "__main__":

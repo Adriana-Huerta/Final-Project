@@ -7,7 +7,7 @@ class Particle():
     def __init__(self, pos=(0,0), size=15, life=1000):
         self.pos = pos
         self.size = size
-        self.color = pygame.Color(random.randrange(0, 255), random.randrange(0, 255), random.randrange(0, 255),255)
+        self.color = pygame.Color(random.randrange(250, 255), random.randrange(0, 255), random.randrange(0, 255),255)
         self.age = 0
         self.life = life
         self.dead = False
@@ -66,7 +66,7 @@ class Rain():
 
     def __init__(self, screen_res):
         self.screen_res = screen_res
-        self.particle_size = 15
+        self.particle_size = 25
         self.birth_rate = 1
         self.trails = []
     

@@ -114,8 +114,8 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
         rain.update(dt)
-        black = pygame.Color(0, 0, 0)
-        screen.fill(black)
+        maroon = pygame.Color(50, 0, 0)
+        screen.fill(maroon)
         rain.draw(screen)
         pygame.display.flip()
         dt = clock.tick(12)

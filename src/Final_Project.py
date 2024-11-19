@@ -110,20 +110,18 @@ def main():
     resolution = pygame.display.get_window_size()
     rain = Rain(resolution)
     running = True
+    img = pygame.image.load('FIREBALL.jpg')
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
         rain.update(dt)
-        maroon = pygame.Color(50, 0, 0)
+        maroon = pygame.Color(25, 0, 0)
         screen.fill(maroon)
         rain.draw(screen)
+        screen.blit(img, (500,500))
         pygame.display.flip()
-        dt = clock.tick(12)
-        # with Image.open('FIREBALL.jpg') as img:
-        #     x = 0
-        #     y = 0
-        #     img.show()
+        dt = clock.tick(5)
         
     pygame.quit()
 

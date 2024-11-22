@@ -110,7 +110,7 @@ def main():
     resolution = pygame.display.get_window_size()
     rain = Rain(resolution)
     running = True
-    img = pygame.image.load('FIREBALL.jpg')
+    img = pygame.image.load('Wizard.png')
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

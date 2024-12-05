@@ -187,6 +187,7 @@ def main():
         #self.particles.insert(0, particle)
         #self._update_particles(dt)
         #self._update_pos()
+        #Final added note to just see that everything is good
 
     pygame.quit()
 

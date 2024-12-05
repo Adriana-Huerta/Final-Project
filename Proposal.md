@@ -5,15 +5,15 @@ Final Project for my class.
 https://github.com/Adriana-Huerta/Final-Project/tree/main
 
 ## Description
-This project will have a digital rain effect, trails of colorful drips will run down the screen. While in the forefront a still image will show and overlap the rain, it will not be covered by the effect at all.
+This project will have a digital rain effect, trails of reds and simialr hues fall in the background as the playable wizard shoots fireballs in the forefront.
 
 ## Features
 - Digital rain
 	- Add code that will have the screen background covered in rain trails.
-- Changing color of the rain
-	- Change the color of the drops and trails within the rain code.
-- A still image in the forefront 
-	- Import an image I've made and place it in the forefront.
+- Being able to move around on screen.
+	- Press left or right to move your wizard across the screenspace.
+- A crazy wizard with an obsession with fireballs 
+	- Import an image I've made and place it in the forefront and when spacebar is pressed a fireball shoots out.
 
 ## Challenges
 - How to overlap images without the rain covering the picture.
@@ -22,21 +22,21 @@ This project will have a digital rain effect, trails of colorful drips will run 
 
 ## Outcomes
 Ideal Outcome:
-- The still image will be in the forefront, undisturbed while colorful digital rain covers the screen in the background.
+- Digital rain that has hues of red and fire fall in the background while a crazy wizard shoots fireballs.
 
 Minimal Viable Outcome:
-- Have rain and picture show up on screen.
+- Have rain and wizard show up on screen.
 
 ## Milestones
 
 - Week 1
-  1. Draw image
+  1. Draw images
   2. Add code to rain
 
 - Week 2
-  1. Make rain colorful
-  2. Import image
+  1. Import all images
+  2. Have images appear in a specific order
 
 - Week N (Final)
-  1. Make rain in background
-  2. Make image in foreground
+  1. Make wizard able to move left and right
+  2. Make wizard able to shoot fireballs if spacebar is pressed
